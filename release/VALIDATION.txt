@@ -1,0 +1,35 @@
+MineGen 1.0.0 — validation du 12 septembre 2026
+
+Environnement : Windows, Java 21.0.11, Paper 1.21.11 build 132 officiel.
+MineGen seul plugin installe. Serveur de test isole du serveur Eternium.
+
+ESSAIS REUSSIS
+- Premier demarrage sans configuration : creation du fichier et du monde.
+- Redemarrage : reouverture du monde MineGen et conservation de la graine.
+- Configuration personnalisee : nouveau monde, graine 123456789, difficulte HARD.
+  Graine et difficulte verifiees dans le level.dat sauvegarde.
+- Optimisations d'ecriture directe et de biomes actives sur Paper officiel.
+- Optimisation des biomes installee avant la preparation du nouveau spawn.
+- world.enabled=false : monde automatique inactif, serveur demarre normalement.
+- Difficulte invalide : diagnostic explicite, serveur toujours fonctionnel.
+- Dossier de monde etranger : ouverture refusee, fichier temoin intact,
+  aucun autre fichier cree dans ce dossier.
+- Client Mineflayer 1.21.11 : /minegen status, teleportation vers minecraft:minegen,
+  joueur vivant sur sol solide, completion de tp, refus de teleportation apres
+  retrait du statut operateur.
+- Comparaison binaire : 33 entrees du JAR moteur conservees a l'identique ;
+  seuls le point d'entree et le descripteur sont remplaces, config.yml est ajoute.
+
+PORTEE
+Ces essais valident l'installation et les fonctions de cette distribution.
+Ce ne sont pas des essais de charge a 25 joueurs ni une preuve de compatibilite
+avec tous les plugins, versions de Minecraft ou graines possibles.
+Le chemin rapide a ete teste ; le chemin de secours Bukkit du moteur conserve
+n'a pas ete force pendant cette passe. L'option first-join n'a pas fait l'objet
+d'un essai client dedie.
+
+Origine du serveur de test : service officiel de telechargement PaperMC.
+https://docs.papermc.io/misc/downloads-service/
+SHA256 serveur : 5ffef465eeeb5f2a3c23a24419d97c51afd7dbb4923ff42df9a3f58bba1ccfba
+
+Scripts et journaux locaux : Integrations/MineGenRelease/ dans le projet.

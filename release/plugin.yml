@@ -1,0 +1,16 @@
+name: MineGen
+version: 1.0.0
+main: mnw.plugin.MineGenPlugin
+api-version: '1.21.11'
+load: STARTUP
+description: Generateur de terrain autonome pour Paper 1.21.11.
+authors: [MineGen]
+commands:
+  minegen:
+    description: Etat et acces au monde MineGen
+    aliases: [mg]
+    usage: /minegen [status|tp]
+permissions:
+  minegen.teleport:
+    description: Rejoindre le monde MineGen
+    default: op

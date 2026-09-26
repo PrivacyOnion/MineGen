@@ -1,0 +1,14 @@
+# MineGen 1.0.0 — redemarrer le serveur apres modification.
+# Le monde principal existant n est pas remplace.
+world:
+  enabled: true
+  name: minegen
+  # Vide : graine aleatoire enregistree au premier demarrage.
+  # Ne pas changer la graine d un monde deja genere.
+  seed: ''
+  structures: true
+  difficulty: NORMAL
+  # Teleporter automatiquement les nouveaux joueurs dans le monde MineGen.
+  first-join: false
+performance:
+  fast-biomes: true

@@ -1,0 +1,18 @@
+name: MineGen
+version: 0.1.0
+main: mnw.plugin.MineGenPlugin
+api-version: '1.21'
+description: Worldgen 1.21.11 en 2D, ~4x moins chere que le routeur de bruit 3D.
+folia-supported: false
+# Le monde par defaut est cree avant l'activation des plugins : sans STARTUP,
+# Paper ne trouve pas le generateur et retombe sur vanilla.
+load: STARTUP
+
+commands:
+  mgbench:
+    description: Compare MineGen et la generation vanilla sur ce serveur, ou 'tp' pour visiter.
+    usage: /mgbench [rayon en chunks | tp]
+    permission: minegen.bench
+permissions:
+  minegen.bench:
+    default: op

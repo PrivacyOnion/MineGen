@@ -1,0 +1,17 @@
+*.class
+java/out/
+java/plugin_out/
+java/nms_out/
+java/jar/
+java/jartest/
+release/classes/
+release/dist/
+MineGen.jar
+out/
+vanilla/
+.idea/
+.vscode/
+__pycache__/
+*.log
+.env
+.env.*
