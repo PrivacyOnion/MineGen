@@ -65,6 +65,6 @@ The historical build scripts depend on external Minecraft data, Paper libraries 
 
 ## Credits and usage
 
-**JMS — project creator. ChatGPT — assistance with publication, documentation and GitHub branding.** See [CREDITS.md](CREDITS.md).
+**JMS — project creator.** See [CREDITS.md](CREDITS.md).
 
 No open-source license has been selected. Public source visibility alone does not grant a general reuse or redistribution license. Third-party components and Minecraft-derived data remain subject to their respective terms. MineGen is not affiliated with Mojang or Microsoft.

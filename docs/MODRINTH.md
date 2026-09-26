@@ -66,13 +66,13 @@ Les essais d'installation et de téléportation sont décrits dans le rapport de
 
 ### Crédits
 
-**JMS — créateur du projet. ChatGPT — assistance à la préparation de la publication et de cette description.**
+**JMS — créateur du projet.**
 
 ## Transparence et icône
 
 Déclarer l'assistance IA à la description/publication dans Content Disclosures ; décrire aussi l'usage réel d'IA dans le code si applicable. L'historique du développement n'a pas été audité ici.
 
-Le SVG et le PNG du dossier `assets/` ont été dessinés par code avec ChatGPT pour GitHub. Leur conversion en PNG ne garantit PAS leur admissibilité sur Modrinth, dont la règle couvre les images créées ou dérivées de sorties d'IA. Pour Modrinth, utiliser un dessin réalisé par JMS ou une vraie capture en jeu dont il détient les droits, ou publier sans icône.
+Le SVG et le PNG du dossier `assets/` ont été dessinés par code avec assistance IA pour GitHub. Leur conversion en PNG ne garantit PAS leur admissibilité sur Modrinth, dont la règle couvre les images créées ou dérivées de sorties d'IA. Pour Modrinth, utiliser un dessin réalisé par JMS ou une vraie capture en jeu dont il détient les droits, ou publier sans icône.
 
 Règles vérifiées le 26 septembre 2026 :
 https://support.modrinth.com/en/articles/16551575-disclosure-and-usage-of-ai

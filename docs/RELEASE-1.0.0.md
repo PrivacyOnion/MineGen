@@ -13,4 +13,4 @@ The ZIP includes the same JAR, installation notes, example configuration, histor
 
 Compatibility is limited to Paper 1.21.11. Back up worlds before updating and use a full restart.
 
-**Credits: JMS — project creator; ChatGPT — publication and documentation assistance.**
+**Credits: JMS — project creator.**
